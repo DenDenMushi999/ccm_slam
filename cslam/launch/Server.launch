@@ -21,7 +21,7 @@
   <!-- !!! ADJUST INPUT TOPIC NAMES IF NECESSARY !!! -->
   <!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
 
-  <param name="NumOfClients" type="int" value="4" />
+  <param name="NumOfClients" type="int" value="1" />
 
   <param name="LoadMap" type="bool" value="false" />
 

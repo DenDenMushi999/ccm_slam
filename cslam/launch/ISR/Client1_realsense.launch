@@ -8,6 +8,8 @@
   <group ns="ccmslam">
 
   <node pkg="tf" type="static_transform_publisher" name="linkC1_broadcaster" args="0 0 0 -1.571 0 -1.571 world odomC1 100" />
+  
+  <node pkg="tf" type="static_transform_publisher" name="linkC1_broadcaster" args="0 0 0 -1.571 0 -1.571 world odomC1 100" />
 
 <node pkg="ccmslam" type="ccmslamClientNode" name="ccmslamClientNode1" args="$(find ccmslam)/conf/ORBvoc.txt $(arg cam)" output="screen">
 
